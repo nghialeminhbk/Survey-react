@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavbarHeader from './components/NavBar/NavBar';
 import Insight from './pages/Result/Insight/Insight';
 import Sumary from './pages/Result/Sumary/Sumary';
+import Create from './pages/Create/Create';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/summary">
             <Sumary />
+          </Route>
+          <Route path="/create">
+            <Create />
           </Route>
         </Switch>
       </div>

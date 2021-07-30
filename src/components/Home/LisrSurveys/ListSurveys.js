@@ -1,18 +1,14 @@
 import CardSurvey from "../CardSurvey/CardSurvey"
 
-const ListSurveys = () => {
+const ListSurveys = ({surveys}) => {
     return ( 
         <div class="px-5 mt-2">
             <div class="row g-5">
-                <div class="col-6">
-                    <CardSurvey />
-                </div>
-                <div class="col-6">
-                    <CardSurvey />
-                </div>
-                <div class="col-6">
-                    <CardSurvey />
-                </div>
+                {surveys.map(survey => (
+                    <div className="col-6" key={ survey.id }>
+                        <CardSurvey name={survey.name} total={survey.total} />
+                    </div> 
+                ))}
             </div>
       </div>
      );

@@ -11,8 +11,8 @@ const Breadcrumb = () => {
                 </ol>
             </nav>
             <div className="d-flex align-items-center px-3 border-start border-2">
-                <Link to="/insight" className="px-1 border-bottom border-dark border-2 text-decoration-none text-dark fw-bold">Result</Link>
-                <Link to="" className="px-1 text-decoration-none text-muted">Create</Link>
+                <Link to="/insight" className="px-1 text-decoration-none text-muted">Result</Link>
+                <Link to="/create" className="px-1 border-bottom border-dark border-2 text-decoration-none text-dark fw-bold">Create</Link>
             </div>
         </section>
      );

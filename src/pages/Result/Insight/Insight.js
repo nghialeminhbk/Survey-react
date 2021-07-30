@@ -1,4 +1,4 @@
-import Breadcrumb from "../../../components/Breadcrumb/Breadcrumb"
+import Breadcrumb from "../../../components/Result/Insight/Breadcrumb"
 import InsightContent from "../../../components/Result/Insight/Content"
 import NavBarDashBoard from "../../../components/Result/Insight/NavBarDashboard"
 
